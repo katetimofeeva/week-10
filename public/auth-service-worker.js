@@ -7841,11 +7841,11 @@
       this.associatedEvent = null;
     }
     close() {
-      if (this.window) {
-        try {
-          this.window.close();
-        } catch (e) {}
-      }
+      // if (this.window) {
+      //   try {
+      //     this.window.close();
+      //   } catch (e) {}
+      // }
     }
   };
   function _open(
